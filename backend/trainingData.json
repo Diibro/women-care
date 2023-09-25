@@ -1,0 +1,250 @@
+[
+     {
+          "intent": "pregnancy.pregnancy_meaning",
+          "questions": ["meaning of pregnancy","pregnancy", "Provide a detailed meaning of pregnancy", "how do you describe pregnancy"],
+          "answers":[
+               "Pregnancy is the term used to describe the period in which a fetus develops inside a woman's womb or uterus. Pregnancy usually lasts about 40 weeks, or just over 9 months, as measured from the last menstrual period to delivery. Health care providers refer to three segments of pregnancy, called trimesters.",
+               "Pregnancy is the period in which an egg cell is fertilized by a sperm to form a new cell, called the zygote, that eventually develops into a new human organism, to be born.   Pregnancy can be single or multiple. The latter refers to conceiving two or more fetuses at the same time or conceiving one zygote which divides into two or more separate zygotes at a very early stage of development and forms two fetuses.  If the former, fraternal twins, triplets, quadruplets or quintuplets are formed. If the latter, identical twins (or more multiples) are born as they have the same genetic makeup. While identical twins are fairly common, identical multiples of higher order are very rare."
+          ]
+     },
+     {
+          "intent": "pregnancy.headaches_prevention",
+          "questions": [
+               "How to handle pregancy headaches",
+               "Guide to Treating Headaches During Pregnancy",
+               "treatment to headaches during pregnancies"
+          ],
+          "answers": [
+               "There are several naturals ways to treat headaches. Primary headaches in pregnant women usually can be treated at home. Rest, a neck or scalp massage, hot or cold packs, and over-the-counter anti-inflammatory drugs such as Tylenol, aspirin, or ibuprofen can reduce the pain. However, if you start to have frequent or severe headaches, talk to your doctor to determine the cause.",
+               "Try to eat well and drink plenty of fluids, especially if you are prone to morning sickness. Reduce your stress level. Try a massage or cold pack to help with tension headaches. If your headache is a migraine, rest in a cool, dark room with no noise, and try using warm or cold compresses or an ice pack.",
+               "Pregnancy headaches can be a real pain. While before pregnancy, you may have simply popped an over-the-counter (OTC) pain reliever and continued on with your busy life, during pregnancy, medication options are a little more restricted. But, the good news is there are still some things you can do to relieve pregnancy headaches. For example, rest, cool compresses, a massage, and Tylenol are generally considered safe options during pregnancy. Of course, always check with a healthcare provider to be sure."
+          ]
+     },
+     {
+       "intent": "pregnancy.morning_sickness",
+       "questions": [
+          "morning sickness ? ", 
+          "about morning sickness."
+       
+          ],
+          "answers": [
+               "Morning sickness (also called nausea and vomiting of pregnancy) is nausea (feeling sick to your stomach) and vomiting that happens in the first few months of pregnancy. Even though it's called morning sickness, it can last all day and happen any time of day.",
+               "One of the most common pregnancy questions is regarding morning sickness in the first trimester and throughout the rest of the pregnancy. About 7 in 10  pregnant women have morning sickness in the first trimester (first 3 months) of pregnancy. It usually starts at about 6 weeks of pregnancy and is at its worst at about 9 weeks. Most women feel better in their second trimester, but some may have morning sickness throughout pregnancy. Talk to your provider about ways to aid with discomfort or if your morning sickness persists into month 4 of your pregnancy."
+          ]
+     },
+     {
+          "intent": "pregnancy.morning_sickness_causes",
+          "questions": [
+               "morning sickness causes?",
+               "Give  me the causes of morning sickness",
+               "Generate or provide a description of the causes of morning sickness"
+          ],
+          "answers": [
+               "We don’t know for sure what causes morning sickness. It may be caused by low blood sugar or increased pregnancy hormones. Morning sickness may be worse if you’re stressed or overly tired, if you eat certain foods or if you’re traveling (if you often have motion sickness)."
+          ]
+     },
+     {
+          "intent": "pregnancy.morning_sickness_treatment",
+          "questions": [
+               "Is there medical treatment for morning sickness?",
+               "treament for morning sickness",
+               "How can I prevent morning sickness"
+          ],
+          "answers":[
+               "If you can’t relieve morning sickness on your own or if you have severe nausea and vomiting of pregnancy, your provider may treat you with these medicines: Vitamin B6 and doxylamine, Antiemetic drugs"
+          ]
+     },
+     {
+          "intent": "pregnancy.morning_sickness_health_care_assistant",
+          "questions": [
+               "When should you call your health care provider about morning sickness?",
+               "when can I call a doctor about morning sickness during pregnancy?"
+          ],
+          "answers": [
+               "For most women, morning sickness is mild and goes away over time. But call your provider if: \n Your morning sickness continues into your 4th month of pregnancy, \n You lose more than 2 pounds, \n Your vomit is brown in color or has blood in it. If so, call your provider right away"
+          ]
+     },
+     {
+       "intent": "pregnancy.nutrition",
+       "questions": ["What foods should pregnant women eat?", "Give me or provide me tips for a healthy pregnancy diet."],
+       "answers": [
+          "While you’re pregnant, you’ll want to eat extra protein, calcium, iron, and essential vitamins. You can get these by eating a wide variety of lean meat, seafood, whole grains, and plant-based foods.",
+        "When building your healthy eating plan, you’ll want to focus on whole foods that give you higher amounts of the good stuff you’d need when not pregnant, such as: protein, vitamins and minerals, healthy types of fat, complex carbohydrates, fiber and fluids"
+     ]
+     },
+     {
+          "intent": "pregnancy.nutrions_avoidance",
+          "questions": ["What, which,  foods should I avoid during pregnancy?", "Kind of foods to avoid during pregnancy"],
+          "answers": [
+               "As a general rule of thumb, most foods are safe to consume during pregnancy. However, there are some you should be careful with or avoid completely to protect the well-being of your baby. Here are some foods you should be careful with or avoid: Dairy: Imported soft cheeses or unpasteurized dairy may contain listeria bacteria, which can cause serious illness in pregnant women and babies. Any other foods made from unpasteurized milk, such as soft ripened goats' cheese Pasteurized or unpasteurised mold-ripened soft cheeses with a white coating on the outside, such as Brie, Camembert, and chèvre (unless cooked until steaming hot). Pasteurised or unpasteurized soft blue cheeses, such as Danish blue, Gorgonzola and Roquefort (unless cooked until steaming hot). Unpasteurized cows' milk, goats' milk, sheep's milk or cream. Meats: Undercooked meat, deli meat, and cold cured meats can contain harmful bacteria and should be avoided. Cook all meats thoroughly before consumption.",
+               "Here are some foods you should be careful with or avoid: Be careful with cold cured meats, such as salami, pepperoni, chorizo, and prosciutto (unless cooked thoroughly).Raw or undercooked meat, Liver and liver products due to high vitamin A content. All types of pâté, including vegetarian pâté. Game meats such as goose, partridge or pheasant. Eggs: Raw or undercooked eggs may contain listeria bacteria. Pasteurized egg products such as commercially available dressings are generally considered safe. Raw or partially cooked hen eggs. Raw or partially cooked duck, goose, or quail eggs. Fish: Certain kinds of fish may contain harmful levels of mercury and other heavy metals. Wild caught, low-mercury species of fish is generally considered safe and even beneficial due to omega-3 content"
+          ]
+     },
+     {
+          "intent": "greetings",
+          "questions": ["Hello", "Good morning", "Good evening", "Hey, Hi, Whatsup, salute", "Holla Holla"],
+          "answers":[
+               "Hello, how may I assist you today",
+               "Hi, how are you doing today ? ",
+               "Good day, how do you want me to help you today?"
+          ]
+
+     },
+     {
+          "intent": "greetings.bye",
+          "questions": ["Thank you for helping me", "Good bye",  "Bye, Have a nice day, "],
+          "answers":[
+               "Thank you it was really nice having a conversation with you",
+               "Bye, have a good day !!",
+               "Bye, you are always welcome."
+          ]
+
+     },
+     {
+          "intent": "pregnancy.signs",
+          "questions": ["what or which are the signs, symptoms of pregnancy", "How can, do I know if am pregnant", "which way does a woman know if she is pregnant"],
+          "answers":[
+               " Pregnancy symptoms differ from person to person and pregnancy to pregnancy. Some women might start to notice changes within the first week and some might not until they miss a period. The surest way to know you’re pregnant is to take a pregnancy test or contact your healthcare provider. Here are some common early signs of pregnancy: Missed period. If you’re in your childbearing years and a week or more has passed without the start of an expected menstrual cycle, you might be pregnant. However, this symptom can be misleading if you have an irregular menstrual cycle. Tender, swollen breasts. Early in pregnancy hormonal changes might make your breasts sensitive and sore. The discomfort will likely decrease after a few weeks as your body adjusts to hormonal changes. Nausea with or without vomiting. Morning sickness, which can occur at any time of the day or night, often begins in the first trimester. However, some women feel nausea earlier and some never experience it. Pregnancy hormones likely play a role. Increased urination. You might find yourself urinating more often than usual. The amount of blood in your body increases during pregnancy, causing your kidneys to process extra fluid that ends up in your bladder. Fatigue. Fatigue also ranks high among early symptoms of pregnancy. During early pregnancy, levels of the hormone progesterone soar – which might make you feel sleepy. It is important to note that several of these symptoms are not exclusive to pregnancy, and could indicate sickness or an upcoming period. You can also be pregnant without experiencing these symptoms. Still, if you miss a period and notice some of the above signs or symptoms, take a home pregnancy test or see your health care provider. If your home pregnancy test is positive, make an appointment with your health care provider."
+          ]
+
+     },
+     {
+          "intent": "pregnancy.baby_age",
+          "questions": ["When is my baby due?", "How can I determine the age of my baby", "Which way do I know the age of my baby"],
+          "answers": [
+               "In general, pregnancies last around 40 weeks (or 38 weeks from conception), so the best way to estimate your due date is to count 40 weeks, or 280 days, from the first day of your last period. This is an estimated due date based on the typical number of weeks of pregnancy and should not be used as an exact deadline for your baby to arrive. You can also use a due date calculator to help with getting a more accurate date. Additionally, your health care practitioner will have a better idea of your due date after your first prenatal care visit."
+          ]
+     },
+     {
+          "intent":"pregnancy.physical_exercises",
+          "questions": ["Can I exercise when am pregnant,", "Physical exercies during pregancy", "talk about exercises during pregnancy" ],
+          "answers": [
+               "Exercise is important to keep our bodies healthy throughout our life. Moderate exercise during pregnancy has been repeatedly shown to be safe and have beneficial effects. Studies show that a combination of cardiovascular and strength training along with yoga is best during pregnancy. Additionally, pregnant women who exercise are less likely to experience pregnancy complications such as gestational diabetes, high blood pressure, and preeclampsia. You might begin to find your body is more tired in the third trimester, bringing a number of physical challenges, including pelvic pain, back pain, and more. This tiredness is normal and it is important to find a routine that works for you. A combination of cardio, mobility, and strength exercises can be continued throughout and will assist in preparing your body for birth. The key here is to listen to your body. At any point, if you feel pain or discomfort, stop exercising and contact your doctor for medical advice."
+          ]
+     },
+     {
+          "intent": "pregnancy.breeding",
+          "questions": ["How much bleeding is normal during pregnancy?", "what about breeding during pregnancy"],
+          "answers": [
+               "Bleeding and spotting (light bleeding) from the vagina during pregnancy are common, and it may not be a sign of a problem. In fact, up to 1 out of 4 of all pregnant women have some bleeding or spotting during their pregnancy. Tell your provider about any bleeding you experience even if it is light so that your provider can find out what is causing it. At any time, if you have heavy bleeding, seek medical care right away as this can be a sign of miscarriage."
+          ]
+     },
+     {
+          "intent": "pregnancy.nutrition_vitamins",
+          "questions": ["What prenatal vitamins should I take?", "Vitamins for pregnant woman" ,"prenatal vitamins"],
+          "answers": [
+               "Prenatal vitamins and eating healthy foods are most important for women’s health and make sure your baby gets essential nutrients. These are different from regular multivitamins as your body now needs more nutrients. Make sure your prenatal vitamin has folic acid, iron, and calcium in it as these are important to ensure a healthy baby. It is also important to make sure you get enough vitamin D, DHA, and iodine each day. Do not take any supplements without first talking to your provider. Do not forget to mention your dietary restrictions to your provider as this can influence which supplements you require."
+          ]
+     },
+     {
+          "intent": "pregnancy.prenatal_care",
+          "questions": ["which, what health care providers do I need to see during pregnancy", "Health providers for pregnant women", "prenatal care"],
+          "answers": [
+               "Prenatal care is extremely important throughout your months of pregnancy to check on you and your growing baby. An obstetrician/gynecologist (also called OB/GYN) is a doctor who specializes in taking care of pregnant women and delivering babies. It is vital to find the right obstetric care especially if this is your first time pregnant. Do not be afraid to talk to your provider about personal matters and history as it is their job to help you on your journey."
+          ]
+     },
+     {
+          "intent": "pregnancy.weight_gain",
+          "questions": [
+               "How much weight should I gain?",
+               "weight to gain during pregnancy",
+               "which weight should I keep in pregnancy"
+          ],
+          "answers": [
+               "During your first check up, your provider will check your weight and height to figure out appropriate weight gain during pregnancy for your body. According to the CDC, the amount of weight you gain depends on your BMI pre pregnancy and if you are pregnant with more than one baby. It is important to gain the recommended amount of weight so the baby is not too small. Some babies born too small may be more at risk for illness and may have a difficult time breastfeeding."
+          ]
+     },
+     {
+          "intent": "pregnancy.prenatal_care_visit",
+          "questions": ["What should I expect at my first prenatal care visit?", "what to expect for first prenatal care"],
+          "answers": [
+               "Your first prenatal care visit will consist of a consultation discussing your health history and running some tests. You should expect this appointment to be one of the longest you will have during your pregnancy. Your first appointment will include a general checkup and confirmation of your pregnancy as well as some tests including urine test, blood work, genetic carrier screening, STD tests, pap smear, and blood sugar test. Many practitioners might conduct an ultrasound during the first visit, which is the most accurate way of dating a pregnancy. This is also the time to ask questions and share personal health history with your provider. It is their job to help you on your journey so do not be afraid to get personal."
+          ]
+     },
+     {
+          "intent": "pregnancy.birth_defects",
+          "questions": ["avoiding birth defects", "How can I help reduce the risk of birth defects?", "which are the tips to prevent birth defects"],
+          "answers": [
+               "Not all birth defects can be prevented, but it is important to take measures to ensure a healthy pregnancy and avoid negative outcomes such as stillbirth, preterm labor, and other complications. Here are some tips on how to reduce the risk of birth defects: Plan ahead when considering getting pregnant. See a healthcare professional regularly. Keep health conditions such as diabetes under control. Avoid harmful substances such as alcohol and drugs. Avoid overheating and treat fevers properly. Maintain a healthy weight. Choosing a healthy lifestyle by managing conditions and adopting good behaviors can increase your chances of having a healthy baby. Pregnancy can be an overwhelming time, but knowing that you are doing everything you can to get ready for the journey and staying healthy during your pregnancy will give your baby a healthy start in life and will help you to have peace of mind."
+          ]
+     },
+     {
+          "intent":"pregnancy.midwifery_importance",
+          "questions": ["Why do I need a midwife?", "Importance of having a midwife"],
+          "answers": [
+               "It’s known that high quality care throughout pregnancy, birth and following the birth can have a really positive effect on the health of women and babies, and on the healthy development of children throughout their life. That’s why your midwife, and other health professionals, work hard to make sure that wherever you live in Scotland and whatever your circumstances, we all have a positive experience of maternity and neonatal care. "
+               , "Your midwife will be there for you every step of the way, supporting you throughout your pregnancy as well as after the birth. Chat with them about your needs and choices and then you can work together to plan what’s best for you and your baby."
+          ]
+     },
+     {
+          "intent": "pregnancy.midwife_get",
+          "questions": ["How do I get a midwife?", "which way to obtain a mid wife"],
+          "answers": [
+               "Finding a midwife to help you through your pregnancy is easy. There's no need to see your GP first, you can book direct with a midwife. In most Health Board areas, you can make your first midwife appointment by asking your GP receptionist."
+          ]
+     },
+     {
+          "intent": "pregnancy.midwife_meeting",
+          "questions": ["When should I arrange to see a midwife?", "When to meet a midwife"],
+          "answers": [
+               "When should I arrange to see a midwife? You should make an appointment with a midwife as soon as possible after finding out that you’re pregnant, even if you're a mum already. Getting in early means your midwife can help plan the best care for you and your baby."
+          ]
+     },
+     {
+          "intent": "pregnancy.appointment_partner",
+          "questions": ["Can my partner come to my appointments with me?", "Can I go with my partner to an appointment"],
+          "answers": [
+               "Absolutely! Dads and partners are very welcome at all appointments. It’s great to have someone to support you and to ask questions too. Here are some more ways your partner can support you."
+          ]
+     },
+     {
+          "intent": "pregnancy.vaccinations_need",
+          "questions": ["Do I need to get any vaccinations?", "vaccinations for pregnancy importance "],
+          "answers": [
+               "The best way to protect yourself and your baby from serious disease and illness is to get the recommended vaccines at the right time. NHS Scotland recommends that pregnant women should have the COVID-19, flu and whooping cough vaccines. You can get the COVID-19 and flu vaccines at any stage of your pregnancy, while whooping cough is recommended from week 16. Ask you midwife for more information on how to get your vaccines."
+          ]
+     },
+     {
+          "intent": "pregnancy.folic_acid_templates",
+          "questions": ["Why should I be taking folic acid tablets?", "reason to taking folic acid tablets for pregnant women"],
+          "answers" : [
+               "Folic acid is totally natural and is a really good supplement when you’re expecting. It’s important for helping your baby’s spine to develop, even in the very early stages of pregnancy. It’s best to take folic acid while you’re trying to get pregnant, and continue taking it throughout your pregnancy."
+          ]
+     },
+     {
+          "intent": "pregnancy.smoking",
+          "questions": [
+               "What about smoking and pregnancy?"
+          ],
+          "answers": [
+               "It’s not advisable to smoke while you’re pregnant. Do not let anyone else smoke around you, or in rooms where you and your baby will be. Smoking can cause pregnancy and labour complications, such as your baby being born too early or weighing less than normal. A baby with a low birth weight is more likely to pick up infections, have breathing difficulties and other health problems throughout their childhood. Giving up smoking is the best thing you, your partner and family can do for you and your baby. As soon as you stop, you reduce the risk of miscarriage or stillbirth, and risks to your baby such as cot death."
+          ]
+     },
+     {
+          "intent": "pregnancy.back_sores",
+          "questions": ["What can I do if my back or hips are sore?", "how to handle back sores for pregnant women"],
+          "answers": [
+               "As your baby grows inside you it puts a little bit more strain on your body, and that can lead to a sore back and hips in the final months of pregnancy. Doctors advise, that moving around as much as possible helps and, if you can, a bit of swimming and stretches (like yoga) can also help relieve aches and pains. But if you get really sore, speak with your midwife, as there might be extra support available to you."
+          ]
+     },
+     {
+          "intent": "pregnancy.baby_kicks",
+          "questions": ["When will I start to feel the baby kicking?", "when do baby kicks start"],
+          "answers": [
+               "Most mums feel the first fidgets of their wee one – known as ‘quickening’ – between weeks 14 and 26 of their pregnancy, but it does vary. After those first little flurries, you’ll get to know your own baby’s pattern of movements. Remember, you can talk to your midwife about what to expect. And you’ll probably start to feel your bond with your baby growing as you get use to their movements."
+          ]
+     },
+     {
+          "intent": "pregnancy.connection_with_womb",
+          "questions": ["What can I do to connect with my baby in the womb?", "How to connect with the babe in womb"],
+          "answers": [
+               "It might seem strange, but you can start to communicate with your baby before they’re born! By talking, singing and reading to your bump you’re helping your wee one get used to the sound of your voice and helping their development as well. You can find out more about talking, reading and singing to your baby on the Butterfly Baby Club website, along with mindfulness exercises that can help you connect with your baby’s different senses as they develop in the womb. You can also find out more about the benefits of reading to your baby before they’re born on the Scottish Book Trust website."
+          ]
+     },
+     {
+          "intent": "pregnancy.wrong_questions",
+          "questions": [ "inwhich", "is", "are", "way"],
+          "answers": ["Your question is incomplete. Please try again."]
+     }
+
+   ]

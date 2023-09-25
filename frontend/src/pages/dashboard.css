@@ -1,0 +1,496 @@
+.Dashboard{
+     width: 100%;
+     overflow-x: hidden;
+     box-sizing: border-box;
+     position: relative;
+}
+
+.Dashboard .AdminMain, .Dashboard .UserMain, .Dashboard .DoctorMain{
+     position: relative;
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: flex-end;
+     box-sizing: border-box;
+}
+
+.Dashboard  .Nav{
+     width: clamp(120px, 10%, 1000px);
+     display:flex;
+     flex-direction: column;
+     background-color: #4b043f;
+     height: 100vh;
+     padding: 20px;
+     box-sizing: border-box;
+     position: fixed;
+     top: 0;
+     left: 0;
+
+}
+
+.Dashboard .Nav .logo{
+     width: 90%;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+}
+
+.Dashboard  .Nav .logo img{
+     width: clamp(60px, 70%, 150px);
+     background-color:#7a7373 ;
+     border-radius: 50%;
+}
+
+.Dashboard .Nav .nav{
+     width: 80%;
+     display: flex;
+     flex-direction:column ;
+     align-items: center;
+     justify-content: space-evenly;
+     height: 80vh;
+}
+
+.Dashboard .Nav .nav a{
+     color: white;
+     font-size: 30px;
+     font-weight: 900;
+}
+
+.Dashboard .body{
+     width: clamp(390px,90%, 2000px );
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+
+.Dashboard  .body .admin-home,  .Dashboard  .body .admin-doctors,.Dashboard  .body .doctor-home, .Dashboard  .body .user-home{
+     width: 90%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+
+.Dashboard .body  .intro{
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content:center ;
+     background: linear-gradient(60deg, #3e5868, #581648);
+     padding: 10px 0;
+     border-radius: 30px;
+}
+
+.Dashboard .body  .intro h1{
+     font-size: 4rem;
+     font-weight: 900;
+     color: #f7eaea;
+     text-shadow: 1px 1px 5px black;
+}
+
+.Dashboard .body  .intro p{
+     color: rgb(219, 219, 219);
+     font-size: 1.1rem;
+}
+.Dashboard .AdminMain .body .admin-home .cont, .Dashboard .DoctorMain .body .doctor-home .cont, .Dashboard .UserMain .body .user-home .cont{
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+     padding: 50px 0;
+}
+
+.Dashboard .AdminMain .body .admin-home .cont .container, .Dashboard .DoctorMain .body .doctor-home .cont .container, .Dashboard .UserMain .body .user-home .cont .container{
+     width: clamp(390px, 30%, 800px);
+     margin: 10px;
+     box-shadow: 1px 1px 10px gray;
+     border-radius: 20px;
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+
+.Dashboard .AdminMain .body .admin-home .cont .container h2{
+     font-size: 2rem;
+     font-weight: 800;
+     color: #4b043f;
+     margin: 0 0 20px;
+}
+
+.Dashboard .AdminMain .body .admin-home .cont .container a, .Dashboard .DoctorMain .body .doctor-home .cont .container a, .Dashboard .UserMain .body .user-home .cont .container a{
+     font-size: 6rem;
+     background: linear-gradient(60deg, #0c202c, #581648);
+     aspect-ratio: 1/1;
+     width: 50%;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     margin-bottom: 20px;
+     color: wheat;
+     border-radius: 50%;
+}
+
+.Dashboard .AdminMain .body .admin-home .cont .container p, .Dashboard .DoctorMain .body .doctor-home .cont .container p, .Dashboard .UserMain .body .user-home .cont .container p{
+     font-size: 1.2rem;
+     color: #581648;
+     font-weight: bold;
+}
+
+.admin-doctors .cont {
+     width: 100%;
+     margin: 10px 0;
+     box-shadow: 1px 1px 10px gray;
+     height: 80vh;
+     overflow-y: scroll;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
+     position: relative;
+     border-radius: 20px;
+}
+
+.admin-doctors .cont .pagination{
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     padding: 5px 0;
+     position: fixed;
+     bottom: 0;
+     z-index: 5;
+}
+
+.admin-doctors .cont .pagination span{
+     font-size: 1rem;
+     color: #0c202c;
+     margin: 0 15px;
+}
+
+.admin-doctors .cont .pagination span:hover{
+     cursor: pointer;
+}
+.admin-doctors .cont .pagination .active{
+     color: black;
+     font-weight: bold;
+     transform: scale(1.2);
+}
+
+.admin-doctors .cont .page{
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: space-evenly;
+     box-sizing: border-box;
+     padding: 20px;
+}
+
+.admin-doctors .cont .page .doctor{
+     width: clamp(390px, 23%, 800px);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     box-shadow: 1px 2px 10px gray;
+     box-sizing: border-box;
+     padding: 20px;
+     border-radius: 10px;
+     margin: 10px 0;
+}
+
+.admin-doctors .cont .page .doctor img{
+     width: 50%;
+     border-radius: 50%;
+}
+
+.admin-doctors .cont .page .doctor h3{
+     font-size: 1.5rem;
+     font-weight: 800;
+     color: #4b043f;
+}
+
+.admin-doctors .cont .page .doctor .row{
+     width: 80%;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+     padding: 10px 0 0;
+}
+
+.admin-doctors .cont .page .doctor .row span{
+     color: green;
+     font-size: 1.2rem;
+     font-weight: 800;
+}
+
+.admin-doctors .cont .page .doctor .row button{
+     padding: 5px  15px ;
+     font-weight: 600;
+     font-size: 1rem;
+     border: none;
+     background-color: #20041c;
+     color: whitesmoke;
+     border-radius: 5px;
+}
+
+.admin-doctors .cont .page .doctor .row button:hover{
+     cursor: pointer;
+}
+
+.admin-chat{
+     width: 100%;
+}
+
+.admin-chat .body{
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     align-items: flex-start;
+     justify-content: space-evenly;
+     flex-wrap: wrap
+}
+
+.admin-chat .body .col{
+     width: clamp(390px,40%, 800px );
+     padding: 10px;
+}
+
+.admin-chat .body .col .question{
+     width: 90%;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+     padding: 5px 10px ;
+     margin-top: 20px;
+     box-shadow: 1px 1px 5px gray;
+}
+
+.admin-chat .body .col .question h3{
+     font-size: 1.2rem;
+     color: #20041c;
+}
+
+.admin-chat .body .col .buttons{
+     width: 40%;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+}
+.admin-chat .body .col button{
+     padding: 5px 10px ;
+     color: white;
+     background-color: #500a45;
+     border: none;
+     border-radius: 5px;
+     font-weight: bold;
+     font-size: 1.1rem;
+     margin: 0 10px;
+     transition: all 0.5s;
+}
+
+.admin-chat .body .col button:hover{
+     border: 1.5px solid #46073c;
+     color: #20041c;
+     background-color: #f7eaea;
+     cursor: pointer;
+}
+
+.admin-chat .body .col h3{
+     font-size: 1.2rem;
+     color: #46073c;
+     margin:0 0 20px ;
+}
+.admin-chat .body .col h3 i{
+     color: #500a45;
+     padding: 10px ;
+     font-weight: 900;
+}
+
+.admin-chat .body .col form{
+     width: 80%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.admin-chat .body .col form textarea, .admin-chat .body .col form input{
+     width: 100%;
+     margin-bottom: 20px;
+     padding: 10px;
+     box-shadow: 1px 1px 5px rgb(49, 38, 30);
+     border-radius: 10px;
+     font-size: 0.9rem;
+     outline: none;
+     border: none;
+}
+
+.admin-chat .body .col form textarea:focus, .admin-chat .body .col form input:focus{
+     outline: none;
+}
+
+.chatAdmin{
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     align-items: flex-start;
+     justify-content: space-evenly;
+
+}
+
+.chatAdmin .col-1{
+     width: 20%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 10px 5px ;
+}
+
+.chatAdmin .col-1 h2{
+     color: #3e5868;
+     font-size: 1.2rem;
+}
+
+.chatAdmin .col-1 .chat-row{
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0 5px;
+}
+
+.chatAdmin .col-1 .chat-row img{
+     width: 20%;
+     border-radius: 50%;
+}
+
+.chatAdmin .col-1 .chat-row h4{
+     font-size: 1.1rem;
+     color: #20041c;
+}
+
+.chatAdmin .col-2{
+     width: 70%;
+     height: 80vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
+     background-color: #afcbdd;
+}
+
+.chatAdmin .col-2 .header-row{
+     width: 100%;
+     height: 10%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: #3e5868;
+}
+
+.chatAdmin .col-2 .header-row h4{
+     font-size: 1.2rem;
+     color: #46073c;
+}
+
+.chatAdmin .col-2 .chat-box {
+     width: 100%;
+     height: 70%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: flex-start;
+}
+
+.chatAdmin .col-2 .chat-box .patient{
+     font-size: 1rem;
+     background-color: #46073c;
+     color: white;
+     border-radius: 0 5px 5px 5px;
+     display: flex;
+     align-self: flex-end;
+}
+
+.chatAdmin .col-2 .chat-box .doctor{
+     font-size: 1rem;
+     background-color: #e699d9;
+     color: #20041c;
+     border-radius: 5px 5px 0 5px;
+     display: flex;
+     align-self: flex-start;
+}
+
+.chatAdmin .col-2 .message{
+     width: 100%;
+     height: 10%;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-evenly;
+     background-color: #3e5868;
+}
+
+.chatAdmin .col-2 .message textarea{
+     width: 70%;
+     height: 80%;
+     border-radius: 10px;
+     padding: 10px 20px;
+}
+
+.chatAdmin .col-2 .message button{
+     width: 10%;
+     padding: 10px 10px;
+     background-color: #46073c;
+     color: white;
+     font-size: 1.2rem;
+     font-weight: 800;
+     border: none;
+     border-radius: 10px;
+}
+
+.AdminMain .admin-chat .body-que{
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 20px 10px;
+}
+
+.AdminMain .admin-chat .body-que table {
+     width: 90%;
+     padding: 10px ;  
+}
+
+.AdminMain .admin-chat .body-que table thead{
+     background-color: #0c202c;
+     color: white;
+     font-size: 1.5rem;
+     font-weight: 700;
+}
+
+.AdminMain .admin-chat .body-que table td{
+     padding: 10px;
+     text-align: center;
+}
+
+.AdminMain .admin-chat .body-que table tbody{
+     background-color: #f5dbfa;
+     font-size: 1.1rem;
+}
+
